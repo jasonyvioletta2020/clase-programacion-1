@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+
+<h1> PROGRAMA PARA CALCULAR INDICE DE MASA CORPORAL  </H1>
+
+<script>
+
+
+	function saltarlinea() {
+	  document.write ("<br>");
+	  document.write ("<br>");	
+	  document.write ("<br>");
+ 
+	}
+
+function imprimir(frase){
+	 document.write (frase); 
+	 saltarlinea ();
+}
+
+
+function calcularimc(peso,altura){	
+
+	imc= peso /(altura+altura);
+	return imc;
+}
+
+
+	imccristian= calcularimc(71,1.72);
+    imcfabian= calcularimc(73,1.75);
+
+	imprimir  ("el promedio imc calculado de cristian y felipe es: " +  (imccristian+imcfabian)/2 );
+
+ 
+
+
+
+
+ 
+</script>
+
+ 
